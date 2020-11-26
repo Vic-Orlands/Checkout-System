@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.modal-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 40px 60px;
+	border: none;
+}
+
+.modal-content article {
+	background-color: rgb(34, 34, 34);
+	color: white;
+	max-height: auto;
+	flex-grow: 1;
+}
+
+.modal-content article h4 {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 20px 30px;
+}
+
+.modal-content article hr {
+	border: 1px solid white;
+}
+
+.modal-content article > div {
+	padding: 10px 30px;
+	display: flex;
+}
+
+.modal-content article > div img {
+	height: 220px;
+	width: 220px;
+	margin-right: 20px;
+}
+
+.modal-content article > div > div h5 {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.modal-content article > div > div h6 {
+	font-size: 24px;
+	font-weight: 600;
+	margin-top: 30px;
+}
+
+.modal-content article > div > div button {
+	font-size: 14px;
+	width: 200px;
+	margin-top: 90px;
+	padding: 5px;
+	border-radius: 10px;
+	border: none;
+	background-color: tomato;
+	color: white;
+}
+
+.modal-content article > div > div button:hover {
+	background-color: rgb(250, 66, 33);
+}
+
+.modal-content article > div > div button:focus {
+	outline: tomato;
+}
+
+.modal-content aside {
+	background-color: rgb(34, 34, 34);
+	color: white;
+	margin-left: 50px;
+	width: 300px;
+	padding-bottom: 10px;
+	height: auto;
+	align-self: flex-start;
+}
+
+.modal-content aside h4 {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 20px 30px;
+}
+
+.modal-content aside hr {
+	border: 1px solid white;
+}
+
+.modal-content aside > div {
+	padding: 10px 30px;
+}
+
+.modal-content aside > div > div {
+	display: flex;
+	justify-content: space-between;
+}
+
+.modal-content aside > div h3 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.modal-content aside button {
+	width: 100%;
+	border-radius: 10px;
+	border: none;
+	margin-top: 20px;
+	padding: 5px 0;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	background-color: tomato;
+	color: white;
+}
+
+.modal-content aside button:hover {
+	background-color: rgb(250, 66, 33);
+}
+
+.modal-content aside button:focus {
+	outline: tomato;
+}
+
+.footer {
+	background-color: rgb(27, 27, 27);
+	color: white;
+	width: 100%;
+	padding: 10px 20px;
+	text-align: right;
+	font-size: 14px;
+	position: absolute;
+}
+
+/* ------------------stripe stylings starts here------------------------ */
+#checkout {
+	text-transform: uppercase;
+	font-size: 20px;
+	text-decoration: underline;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.card {
+	background-color: white;
+	margin-top: 5px;
+	padding: 10px 20px 11px;
+	border-radius: 5px;
+	width: 100%;
+	border: 1px solid #afafaf;
+	box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
+}
+.pay-button {
+	padding: 0.7rem 2rem;
+	width: 100%;
+	color: white;
+	font-weight: bold;
+	font-size: medium;
+	background-color: #556cd6;
+	border: 0;
+	border-radius: 5px;
+	box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
+	transition: box-shadow 500ms;
+	cursor: pointer;
+}
+.pay-button:disabled {
+	background-color: #afafaf;
+	box-shadow: none;
+	cursor: default;
+}
+.pay-button:disabled:hover {
+	box-shadow: none;
+}
+.pay-button:hover {
+	box-shadow: 2px 5px 15px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* ----------modal overlay------------------------- */
+@media screen and (max-width: 768px) {
+	.modal-content article {
+		margin-bottom: 25px;
+	}
+
+	.modal-content {
+		padding: 20px;
+	}
+
+	.modal-content article > div img {
+		height: 150px;
+		width: 150px;
+		margin-bottom: 30px;
+	}
+
+	.modal-content article > div > div h5 {
+		font-size: 18px;
+	}
+
+	.modal-content article > div > div h6 {
+		font-size: 18px;
+	}
+
+	.modal-content article > div > div button {
+		width: 150px;
+		margin-top: 15px;
+	}
+
+	.modal-content aside {
+		flex-grow: 2;
+		margin: auto;
+		padding-bottom: 20px;
+	}
+
+	.modal-content aside > div h3 {
+		font-size: 18px;
+	}
+}

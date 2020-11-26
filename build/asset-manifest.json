@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.497424b2.chunk.css",
+    "main.js": "/static/js/main.5148ca15.chunk.js",
+    "main.js.map": "/static/js/main.5148ca15.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f3a02c50.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f3a02c50.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.ba7d235b.chunk.js": "/static/js/2.ba7d235b.chunk.js",
+    "static/js/2.ba7d235b.chunk.js.map": "/static/js/2.ba7d235b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.216d4102e96a44fd9885475751113b8c.js": "/precache-manifest.216d4102e96a44fd9885475751113b8c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.497424b2.chunk.css.map": "/static/css/main.497424b2.chunk.css.map",
+    "static/js/2.ba7d235b.chunk.js.LICENSE.txt": "/static/js/2.ba7d235b.chunk.js.LICENSE.txt",
+    "static/media/about swacky.jpg": "/static/media/about swacky.fd90a91a.jpg",
+    "static/media/boy-and-girl.jpeg": "/static/media/boy-and-girl.4afb8024.jpeg",
+    "static/media/camera.jpg": "/static/media/camera.a500faf1.jpg",
+    "static/media/Lander.css": "/static/media/rmvmain.1ab29f1e.png",
+    "static/media/friday.jpg": "/static/media/friday.c782474e.jpg",
+    "static/media/girl-with-grass.jpg": "/static/media/girl-with-grass.00c74358.jpg",
+    "static/media/girl.jpeg": "/static/media/girl.4822d93b.jpeg",
+    "static/media/mezie and ola.jpg": "/static/media/mezie and ola.be8fa259.jpg",
+    "static/media/mezie-ola-before.JPG": "/static/media/mezie-ola-before.838d7de3.JPG",
+    "static/media/mosco.jpeg": "/static/media/mosco.6d1fb885.jpeg",
+    "static/media/swacky-white.jpg": "/static/media/swacky-white.4f94b162.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3a02c50.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.ba7d235b.chunk.js",
+    "static/css/main.497424b2.chunk.css",
+    "static/js/main.5148ca15.chunk.js"
+  ]
+}
