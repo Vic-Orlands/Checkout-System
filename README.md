@@ -1,3 +1,3 @@
-# My-Portfolio
+# Hosted with Netlify. Below is the link to the live app
 
-https://swackyconcept.netlify.app
+https://react-checkout.netlify.app
